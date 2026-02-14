@@ -16,7 +16,7 @@ export const MEMORIES: Memory[] = [
     id: 1,
     title: "Our First Meeting",
     description: "The moment the world stopped and everything changed.",
-    imageUrl: "https://picsum.photos/seed/love1/800/600"
+    imageUrl: "D:\\valentine-for-mim\\20260109_192909.jpg"
   },
   {
     id: 2,
