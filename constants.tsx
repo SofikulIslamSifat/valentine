@@ -17,18 +17,6 @@ export const MEMORIES: Memory[] = [
     title: "Our First Meeting",
     description: "The moment the world stopped and everything changed.",
     imageUrl: "/20260109_192909.jpg"
-  },
-  {
-    id: 2,
-    title: "That Rainy Afternoon",
-    description: "Finding warmth in your smile while the world was grey outside.",
-    imageUrl: "https://picsum.photos/seed/love2/800/600"
-  },
-  {
-    id: 3,
-    title: "The Best Date Ever",
-    description: "Laughter, good food, and realizing I never want to be anywhere else.",
-    imageUrl: "https://picsum.photos/seed/love3/800/600"
   }
 ];
 
