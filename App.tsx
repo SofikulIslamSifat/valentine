@@ -116,7 +116,7 @@ const App: React.FC = () => {
       </main>
 
       <footer className="py-12 bg-rose-50 border-t border-rose-100 text-center">
-        <p className="text-rose-400 font-light">&copy; 2024 Created with Love for Mim</p>
+        <p className="text-rose-400 font-light">&copy; 2026 Created with Love by Sifat for Mim</p>
       </footer>
     </div>
   );
