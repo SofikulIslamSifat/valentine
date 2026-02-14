@@ -11,7 +11,8 @@ const MemoryGrid: React.FC = () => {
           <p className="text-rose-600 max-w-xl mx-auto">Some moments are etched in my heart forever. Here are just a few of them.</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="flex justify-center">
+          <div className="w-full max-w-md">
           {MEMORIES.map((memory) => (
             <div key={memory.id} className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
               <div className="h-64 overflow-hidden relative">
@@ -30,6 +31,7 @@ const MemoryGrid: React.FC = () => {
               </div>
             </div>
           ))}
+          </div>
         </div>
       </div>
     </section>
