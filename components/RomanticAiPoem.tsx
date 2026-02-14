@@ -49,7 +49,7 @@ const RomanticAiPoem: React.FC = () => {
           {poemData ? (
             <div className="animate-in fade-in slide-in-from-bottom-4 duration-1000">
               <span className="inline-block px-3 py-1 bg-rose-500/20 text-rose-300 text-xs rounded-full mb-4 uppercase tracking-widest">{poemData.theme}</span>
-              <div className="whitespace-pre-line text-rose-100 font-romantic text-2xl md:text-3xl leading-relaxed italic">
+              <div className="whitespace-pre-line text-rose-50 text-xl md:text-2xl leading-relaxed font-sans">
                 {poemData.poem}
               </div>
             </div>
