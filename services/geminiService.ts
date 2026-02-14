@@ -44,7 +44,7 @@ export const generateLetterSpeech = async (text: string) => {
       responseModalities: [Modality.AUDIO],
       speechConfig: {
         voiceConfig: {
-          prebuiltVoiceConfig: { voiceName: 'Kore' },
+          prebuiltVoiceConfig: { voiceName: 'Puck' },
         },
       },
     },
