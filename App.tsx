@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Hero from './components/Hero';
 import LoveLetter from './components/LoveLetter';
 import MemoryGrid from './components/MemoryGrid';
@@ -118,6 +119,8 @@ const App: React.FC = () => {
       <footer className="py-12 bg-rose-50 border-t border-rose-100 text-center">
         <p className="text-rose-400 font-light">&copy; 2026 Created with Love by Sifat for Mim</p>
       </footer>
+      
+      <Analytics />
     </div>
   );
 };
